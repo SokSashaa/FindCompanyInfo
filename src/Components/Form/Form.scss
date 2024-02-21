@@ -1,0 +1,34 @@
+@import "src/consts/colors";
+$widthForm:800px;
+
+.form{
+  width:$widthForm;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 1px 5px 5px 5px gray;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .headerForm{
+    background-color: $backgroundColor;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+
+    p{
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+  }
+
+  input[type='text']{
+    width: calc($widthForm/2);
+    height: 35px;
+    border-radius: 20px;
+    padding-left:10px;
+    font-size: 20px;
+  }
+}
