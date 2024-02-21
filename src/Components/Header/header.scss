@@ -1,5 +1,6 @@
+@import "src/consts/colors";
 .header {
-  background-color: #c1121f;
+  background-color: $backgroundColor;
   height: 60px;
   text-align: center;
 

@@ -3,9 +3,7 @@ import './Footer.scss'
 
 const Footer:FC = ()=>{
     return(
-        <div className={'footer'}>
-            {/*<p> @by sok</p>*/}
-        </div>
+        <div className={'footer'}></div>
     )
 }
 export default Footer

@@ -1,0 +1,16 @@
+@import "./../Form/Form";
+input[type='text']{
+  width: calc($widthForm/2);
+  height: 35px;
+  border-radius: 20px;
+  padding-left:10px;
+  font-size: 20px;
+}
+li{
+  list-style-type: none;
+  list-style-position: inside;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
