@@ -15,7 +15,7 @@ const ItemList: FC<itemListProps> = ({dataCompany, nameSavedButton}) => {
     const {savedOrg, setSaved0rg} = useContext(savedOrgContext)
 
     const addElementInSavedOrgArray = () => {
-        setSaved0rg([...savedOrg, dataCompany])
+        if(savedOrg.findIndex(item => item.inn===dataCompany.inn)===-1) setSaved0rg([...savedOrg, dataCompany])
     }
 
     const delElementInSavedOrgArray = () => {

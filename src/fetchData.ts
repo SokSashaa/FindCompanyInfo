@@ -26,7 +26,7 @@ const fetchData = async (query: string) => {
                 "Authorization": "Token " + token
             }
         }
-    ).then((res) => {
+    ).then((res):getCompany[] => {
         const companies = res.data.suggestions.map((item: any): getCompany => {
             return {
                 name: item.value,
@@ -34,9 +34,10 @@ const fetchData = async (query: string) => {
                 ogrn: item.data.ogrn,
                 inn: item.data.inn,
                 management: item.data.management,
-                address: item.data.address.value
+                address: item.data.address?.value
             }
         })
+        console.log(companies)
         return companies
     })
 }
