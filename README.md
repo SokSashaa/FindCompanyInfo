@@ -1,3 +1,11 @@
+Working with RestAPI. 
+Realization of an axios,React.
+The API took from DADATA.RU.
+
+We get detailed information by the name of the organization or INN
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
