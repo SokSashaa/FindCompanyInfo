@@ -1,8 +1,8 @@
-Working with RestAPI. 
-Realization of an axios,React.
-The API took from DADATA.RU.
+#Working with RestAPI. 
+##Realization of an axios,React.
+##The API took from DADATA.RU.
 
-We get detailed information by the name of the organization or INN
+##We get detailed information by the name of the organization or INN
 
 
 
